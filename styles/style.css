@@ -1,0 +1,213 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper,
+.page,
+.parallax,
+.parallax__mountain,
+.parallax__fog,
+.content__links-button,
+.content__links-button a {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+.page {
+  position: absolute;
+}
+.parallax {
+  position: relative;
+}
+.parallax__mountain {
+  position: fixed;
+}
+.parallax__mountain_1 {
+  background: url("../media/img/m_1.png") 0 0 / cover no-repeat;
+}
+.parallax__mountain_2 {
+  z-index: 1;
+  background: url("../media/img/m_2.png") bottom right / 45% no-repeat;
+}
+.parallax__mountain_3 {
+  z-index: 1;
+  background: url("../media/img/m_3.png") bottom left / 100% no-repeat;
+}
+.parallax__fog {
+  z-index: 2;
+  position: fixed;
+  background: url("../media/img/fog_1.png") bottom / 100% no-repeat;
+}
+.content {
+  position: relative;
+}
+.content__body {
+  max-width: 1170px;
+  margin: 0px auto;
+}
+.content__header {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  padding: 0rem 1.5rem;
+}
+.content__title {
+  font-size: 8em;
+}
+.content__subtitle {
+  font-size: 3em;
+}
+.content__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.5em;
+}
+.content__links-button {
+  width: 80%;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.content__links-button:hover {
+  background: linear-gradient(to right, #b7bdca, #798694);
+}
+.content__links-button a {
+  text-decoration: none;
+  line-height: 2em;
+  color: white;
+  /* text-shadow: 1px 1px 2px black; */
+}
+.content__links-margin {
+  display: block;
+  width: 100%;
+  height: 10rem;
+}
+
+.beauty-search {
+  background: linear-gradient(
+    to left,
+    #552586,
+    #6a359c,
+    #804fb3,
+    #9969c7,
+    #b589d6
+  );
+}
+.beauty-search:hover {
+  background: linear-gradient(
+    to right,
+    #552586,
+    #6a359c,
+    #804fb3,
+    #9969c7,
+    #b589d6
+  );
+}
+
+.italian-food {
+  background: linear-gradient(
+    to right,
+    #d3d3d3,
+    #bdbdbd,
+    #9e9e9e,
+    #7d7d7d,
+    #696969
+  );
+}
+.italian-food:hover {
+  background: linear-gradient(
+    to left,
+    #d3d3d3,
+    #bdbdbd,
+    #9e9e9e,
+    #7d7d7d,
+    #696969
+  );
+}
+.boss-of-road {
+  background: linear-gradient(
+    to left,
+    #ff6200,
+    #fd7f2c,
+    #fd9346,
+    #fda766,
+    #fdb777
+  );
+}
+.boss-of-road:hover {
+  background: linear-gradient(
+    to right,
+    #ff6200,
+    #fd7f2c,
+    #fd9346,
+    #fda766,
+    #fdb777
+  );
+}
+.vibo {
+  background: linear-gradient(
+    to right,
+    #ccf9ff,
+    #7ce8ff,
+    #55d0ff,
+    #00acdf,
+    #0080bf
+  );
+}
+.vibo:hover {
+  background: linear-gradient(
+    to left,
+    #ccf9ff,
+    #7ce8ff,
+    #55d0ff,
+    #00acdf,
+    #0080bf
+  );
+}
+.leon-agency {
+  background: linear-gradient(
+    to right,
+    #fafa6e,
+    #c0f37d,
+    #89e892,
+    #53daa7,
+    #10cab7
+  );
+}
+.leon-agency:hover {
+  background: linear-gradient(
+    to left,
+    #fafa6e,
+    #c0f37d,
+    #89e892,
+    #53daa7,
+    #10cab7
+  );
+}
