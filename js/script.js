@@ -34,6 +34,11 @@ $(document).ready(function(){
   } else {
     $('.content').css('z-index', 0);
   }
+  if (s >= h) {
+    $('.content__links-button').css('z-index', 10000);
+  } else {
+    $('.content__links-button').css('z-index', 0);
+  }
   };
 
   $(window).scroll(function(event) {
