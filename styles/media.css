@@ -1,0 +1,59 @@
+ @media only screen and (max-width: 600px) {
+  .content__header{
+    padding: 0;
+  }
+  .content__title{
+    font-size: 3em;
+  }
+  .content__subtitle{
+    font-size: 1.8em;
+  }
+ }
+
+ @media only screen and (min-width: 600px) {
+  .content__header{
+    padding: 0;
+  }
+  .content__title{
+    font-size: 3.5em;
+  }
+  .content__subtitle{
+    font-size: 1.9em;
+  }
+ }
+ 
+ @media only screen and (min-width: 768px) {
+  .content__header{
+    padding: 0;
+  }
+  .content__title{
+    font-size: 4em;
+  }
+  .content__subtitle{
+    font-size: 2em;
+  }
+ }
+ 
+ @media only screen and (min-width: 992px) {
+  .content__header{
+    padding: 0;
+  }
+  .content__title{
+    font-size: 5em;
+  }
+  .content__subtitle{
+    font-size: 2.5em;
+  }
+ }
+
+ @media only screen and (min-width: 1200px) {
+  .content__header{
+    padding: 0rem 1.5rem;
+  }
+  .content__title{
+    font-size: 8em;
+  }
+  .content__subtitle{
+    font-size: 3em;
+  }
+ } 
