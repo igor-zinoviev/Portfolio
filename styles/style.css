@@ -100,6 +100,7 @@ body {
   padding: 2.5rem;
   padding-bottom: 1.5rem;
   font-size: 1.5em;
+  z-index: 4;
 }
 
 .content__links-button {
@@ -170,4 +171,4 @@ body {
   transform: scale(1.08);
   box-shadow: 0 5px 18px -2px white;
   cursor:pointer;
-}/*# sourceMappingURL=style.css.map */
+}
