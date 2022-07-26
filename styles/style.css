@@ -105,6 +105,10 @@ body {
 .content__links-button {
   width: 80%;
   font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2em;
+  color: white;
   border: none;
   border-radius: 5px;
   outline: none;
@@ -114,13 +118,6 @@ body {
   padding: 0.5rem;
   margin-bottom: 1rem;
   transition: 0.4s;
-}
-
-.content__links-button a {
-  text-decoration: none;
-  line-height: 2em;
-  color: white;
-  /* text-shadow: 1px 1px 2px black; */
 }
 
 .content__links-margin {
@@ -171,6 +168,6 @@ body {
 
 .content__links-button:hover {
   transform: scale(1.08);
-  box-shadow: 0 3px 15px -2px;
+  box-shadow: 0 5px 18px -2px white;
   cursor:pointer;
 }/*# sourceMappingURL=style.css.map */
