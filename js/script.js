@@ -18,6 +18,11 @@ $(document).ready(function(){
   $('.parallax__fog').css('transform ', 'scale('+z_1+')');
   $('.parallax__fog').css('opacity', o);
 
+  if($('.parallax__fog').css('opacity')==0){
+    $('.parallax__fog').css('display', 'none');
+  } else{
+    $('.parallax__fog').css('display', 'block');
+  }
     var z_2 = 1 + (w / 4500000 * p);
   $('.parallax__mountain_1').css('transform', 'scale(' + z_2 + ')');
 
