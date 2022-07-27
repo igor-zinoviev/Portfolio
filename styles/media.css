@@ -8,6 +8,27 @@
   .content__subtitle{
     font-size: 1.8em;
   }
+  .content__description{
+    margin-top: 0.5em;
+    padding: 0.5rem;
+  }
+  .content__description p{
+    font-size: 1.2em;
+  }
+  .content__description h3{
+    font-size: 1.4em;
+    margin: 0.5rem 0rem;
+  }
+  .content__links{
+    padding: 0.75rem;
+    padding-bottom: 0rem;
+  }
+  .content__links-button{
+    margin-bottom: 0.75rem;
+  }
+  .margin{
+    height: 0.25rem;
+  }
  }
 
  @media only screen and (min-width: 600px) {
@@ -20,7 +41,26 @@
   .content__subtitle{
     font-size: 1.9em;
   }
- }
+  .content__description{
+    margin-top: 0.5em;
+    padding: 0.75rem 0rem;
+  }
+  .content__description p{
+    font-size: 1.3em;
+  }
+  .content__description h3{
+    font-size: 1.6em;
+    margin: 0.25rem 0rem;
+  }
+  .content__links{
+    padding: 1.25rem;
+    padding-bottom: 0rem;
+  }
+
+ .margin{
+  height: 0.8rem;
+  }
+}
  
  @media only screen and (min-width: 768px) {
   .content__header{
@@ -31,6 +71,24 @@
   }
   .content__subtitle{
     font-size: 2em;
+  }
+  .content__description{
+    margin-top: 0.5em;
+    padding: 1rem 0rem;
+  }
+  .content__description p{
+    font-size: 1.5em;
+  }
+  .content__description h3{
+    font-size: 1.6em;
+    margin: 0.25rem 0rem;
+  }
+  .content__links{
+    padding: 1.5rem;
+    padding-bottom: 0rem;
+  }
+   .margin{
+  height: 1em;
   }
  }
  

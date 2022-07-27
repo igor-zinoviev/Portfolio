@@ -80,7 +80,6 @@ body {
 .content__header {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 1.5rem;
   padding: 0rem 1.5rem;
 }
 
@@ -120,10 +119,19 @@ body {
   transition: 0.4s;
 }
 
-.content__links-margin {
+.content__description{
   display: block;
   width: 100%;
-  height: 10rem;
+  text-transform: none;
+  margin-top: 2em;
+}
+.content__description p{
+  font-size: 1.5em;
+}
+.content__description h3{
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 1.5rem 0rem;
 }
 
 .beauty-search {
@@ -170,4 +178,8 @@ body {
   transform: scale(1.08);
   box-shadow: 0 5px 18px -2px white;
   cursor:pointer;
+}
+.margin{
+  display: block;
+  height: 3.5rem;
 }
